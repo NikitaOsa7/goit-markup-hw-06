@@ -698,17 +698,72 @@ header {
   margin-top: 20px;
 }
 
-.mailing-offer-text {
+.footer-form-block {
+  margin-left: 93px;
+}
+
+.footer-form-text {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  margin-left: 93px;
+  margin-bottom: 20px;
 
   color: var(--secondary-text-color);
 }
 
+.footer-form-label {
+  display: flex;
+}
+
+.footer-form-input {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  padding-left: 16px;
+  align-items: center;
+  justify-content: center;
+
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  background-color: var(--primary-background-color);
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.footer-form-button {
+  width: 200px;
+  height: 50px;
+
+  background-color: #2196f3;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  outline: none;
+  display: flex;
+}
+
+.button-form-text {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  padding-left: 29px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--secondary-text-color);
+}
+
+.footer-form-icon {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  margin-left: 10 px;
+}
 /* ----------------------portfolio----------------------- */
 .btn-portfolio {
   font-weight: 500;
@@ -1046,4 +1101,27 @@ header {
   color: var(--primary-text-color);
 
   letter-spacing: 0.03em;
+}
+
+.modal-form-button {
+  width: 200px;
+  height: 50px;
+  outline: none;
+  border: none;
+  color: var(--secondary-text-color);
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+
+  align-items: center;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.button-modal-form {
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
