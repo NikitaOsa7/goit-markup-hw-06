@@ -590,6 +590,7 @@ header {
 
 .footer-container-special {
   margin-right: 70px;
+  flex-grow: 1;
 }
 
 .footer-logo {
@@ -961,7 +962,7 @@ header {
   line-height: 23px;
   text-align: center;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
+  margin-bottom: 12px;
 }
 
 .modal-form-field-text {
@@ -971,7 +972,7 @@ header {
 .modal-form-field {
   font-size: 14px;
   font-weight: 400;
-  margin-bottom: 28px;
+  margin-bottom: 10px;
 }
 
 .modal-form-wrapper {
@@ -1023,6 +1024,7 @@ header {
   margin-top: 4px;
   padding-left: 16px;
   padding-top: 12px;
+  display: block;
 
   resize: none;
 }
@@ -1071,9 +1073,9 @@ header {
 .modal-form-checkbox-label::before {
   display: block;
   content: "";
-  width: 18px;
-  height: 18px;
-  border: 1px solid #212121;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
   border-radius: 3px;
   cursor: pointer;
   margin-right: 8.328px;
@@ -1081,6 +1083,10 @@ header {
 
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
   background-image: url(../img/icon-check.svg);
+  border-color: var(--accent-color);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .modal-form-checkbox:focus + .modal-form-checkbox-label::before {
