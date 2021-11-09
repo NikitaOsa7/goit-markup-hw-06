@@ -1084,6 +1084,7 @@ header {
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
   background-image: url(../img/icon-check.svg);
   border-color: var(--accent-color);
+  border: 2px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
